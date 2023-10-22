@@ -41,15 +41,21 @@ There are no flags used in this regex. Flags are typically used to modify the re
 The parentheses (...) are used for grouping and capturing in the regex. They group the alternatives together and capture the matched color code. This captured value can be extracted from the matched text.
 
 ### Bracket Expressions
+Bracket expressions like [a-f0-9] are used to specify a range of characters that can match. In our regex, this ensures that only valid characters for hexadecimal color codes are matched.
 
 ### Greedy and Lazy Match
+This regex does not explicitly use greedy or lazy quantifiers. Greedy quantifiers match as much text as possible, while lazy quantifiers match as little as possible. In this case, the default behavior is appropriate.
 
 ### Boundaries
+The anchors ^ and $ serve as boundaries to ensure that the entire string is matched. They prevent partial matches, ensuring that the color code is complete.
+
 
 ### Back-references
+There are no back-references used in this regex. Back-references refer to previously captured groups and are not required for this particular regex.
 
 ### Look-ahead and Look-behind
+This regex does not include look-ahead or look-behind assertions. Look-ahead and look-behind are used to check for specific conditions ahead or behind the current match position.
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This tutorial was written by Jeremy Blau. If you found this tutorial helpful or have any questions, feel free to reach out on my GitHub profile - https://github.com/JeremyBlau.
