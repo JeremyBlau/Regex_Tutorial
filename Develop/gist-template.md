@@ -32,10 +32,13 @@ Quantifiers control how many times a character or group can appear. In our regex
 The | symbol in the regex is an OR operator, allowing either of the two alternatives to match. In this case, it allows for the 6-character ([a-f0-9]{6}) or 3-character ([a-f0-9]{3}) color code format.
 
 ### Character Classes
+Character classes are enclosed in square brackets, like [a-f0-9]. They define a set of characters that can match a single character in the string. In our regex, [a-f0-9] matches any lowercase letter 'a' to 'f' or any digit from '0' to '9'. This represents the valid characters in a hexadecimal color code.
 
 ### Flags
+There are no flags used in this regex. Flags are typically used to modify the regex matching behavior, but they are not necessary in this case.
 
 ### Grouping and Capturing
+The parentheses (...) are used for grouping and capturing in the regex. They group the alternatives together and capture the matched color code. This captured value can be extracted from the matched text.
 
 ### Bracket Expressions
 
