@@ -1,6 +1,6 @@
 # Title (replace with your title)
 
-Introductory paragraph (replace this with your text)
+Regular expressions, often referred to as regex, are powerful tools for pattern matching in text. In this tutorial, we will explore a specific regular expression used to match hexadecimal color codes. Hexadecimal color codes are commonly used in web development to represent colors in HTML and CSS. The regex we will be discussing is /^#?([a-f0-9]{6}|[a-f0-9]{3})$/, which can be used to validate and extract hexadecimal color codes from text.
 
 ## Summary
 
