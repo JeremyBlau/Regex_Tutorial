@@ -26,8 +26,10 @@ The featured regular expression /^#?([a-f0-9]{6}|[a-f0-9]{3})$/ is designed to m
 In the regex /^#?([a-f0-9]{6}|[a-f0-9]{3})$/, the ^ and $ are known as anchors. The ^ anchor signifies the start of the string, and the $ anchor represents the end of the string. Together, they ensure that the entire string is matched from start to finish. In our regex, it ensures that the color code is the only content in the string.
 
 ### Quantifiers
+Quantifiers control how many times a character or group can appear. In our regex, ? is a quantifier that makes the preceding character # optional. It means that a color code can be either prefixed with # or not.
 
 ### OR Operator
+The | symbol in the regex is an OR operator, allowing either of the two alternatives to match. In this case, it allows for the 6-character ([a-f0-9]{6}) or 3-character ([a-f0-9]{3}) color code format.
 
 ### Character Classes
 
